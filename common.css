@@ -1,6 +1,73 @@
 @charset "UTF-8";
 /* CSS Document */
 
+
+ /*--------------------------------
+ reset
+ --------------------------------
+ */
+ * {
+border:0;
+margin:0;
+outline:0;
+padding:0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	box-sizing:border-box;
+font:inherit;
+font-size:100%;
+font-style:inherit;
+font-weight:inherit;
+text-decoration:none;
+vertical-align:baseline;
+}
+html, body, h1, h2, h3, h4, ul, ol, dl, li, dt, dd, p, div, span, img,  table, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  font-size: 100%;
+  vertical-align:baseline;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+article, header, footer, aside, figure, figcaption, nav, section { 
+  display:block;
+}
+body {
+  line-height: 1;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+ol, ul {
+  list-style: none;
+  list-style-type: none;
+}
+img{
+	max-width:100%;
+	height:auto;
+}
+a{  
+	text-decoration:none;
+}
+a:hover{
+	border-bottom:none;
+}
+a:visited{
+	text-decoration:none
+}
+a img{
+	border:none;
+	text-decoration:none
+}
+img{
+	margin:0;
+	padding:0;
+}
+/**/
 header {
   overflow: hidden;
 }
