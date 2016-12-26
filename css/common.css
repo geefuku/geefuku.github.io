@@ -34,14 +34,18 @@ body{
 h1 {
   font-size: 200%;
   color: #535353;
-  margin:10px;
   font-weight:bold;
+  margin:20px 0;
 }
 h2 {
   font-size: 150%;
   color: #535353;
-  margin:10px;
   font-weight:bold;
+  margin:20px 0;
+}
+
+article {
+  margin: 20px;
 }
 
 footer {
