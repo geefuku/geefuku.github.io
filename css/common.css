@@ -8,7 +8,7 @@ header {
 #header_logo {
   height: 120px;
   width: auto;
-  margin-right: 20px;
+  margin: 20px;
 }
 
 .header_box {
@@ -28,9 +28,20 @@ header:after {
 
 body{
   font-family:"游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
-  /*background-image: url("images/logo.png");
-  background-repeat: repeat;
-  background-size:50px;*/
+  color: #535353;
+}
+
+h1 {
+  font-size: 200%;
+  color: #535353;
+  margin:10px;
+  font-weight:bold;
+}
+h2 {
+  font-size: 150%;
+  color: #535353;
+  margin:10px;
+  font-weight:bold;
 }
 
 footer {
