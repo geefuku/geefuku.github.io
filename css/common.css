@@ -57,6 +57,13 @@ footer {
   text-align: center;
 }
 
+#copyright:before {
+  font-family:"FontAwesome";
+  content:"\f1f9";
+  color:#DDDDDD;
+  margin-right:9px;
+}
+
 footer p {
   color: #DDDDDD;
 }
@@ -84,5 +91,5 @@ color: #DDDDDD;
 }
 .fa-github:hover
 {
-color: #000000;
+color: #FFFFFF;
 }
