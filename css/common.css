@@ -76,3 +76,13 @@ footer a:hover {
 footer a:active {
   color: #DDDDDD;
 }
+
+/* octcat色 */
+.fa-github
+{
+color: #DDDDDD;
+}
+.fa-github:hover
+{
+color: #000000;
+}
