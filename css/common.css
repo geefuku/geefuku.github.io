@@ -45,13 +45,19 @@ h2 {
   font-size: 150%;
   color: #535353;
   font-weight:bold;
-  margin:20px 0;
+  margin:40px 0 20px 0;
 }
 
-h2:before {
+h2.about:before {
   font-family:"FontAwesome";
   content:"\f015";
-  margin-right:3px;
+  margin-right:10px;
+}
+
+h2.residents:before{
+  font-family:"FontAwesome";
+  content:"\f183";
+  margin-right:10px;
 }
 
 article {
