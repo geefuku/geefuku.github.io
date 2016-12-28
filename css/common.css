@@ -62,41 +62,29 @@ footer {
   font-size:0.8em;
 }
 
-#copyright:before {
-  font-family:"FontAwesome";
-  content:"\f1f9";
-  color:#DDDDDD;
-  margin-right:9px;
-}
-
 footer p {
   color: #DDDDDD;
 }
 
-/* footerのリンクの色〜〜 */
-footer a:link {
-  color: #DDDDDD;
+#social_icon a {
+  color: #999999;
+  margin: 0 16px 16px 16px;
 }
 
-footer a:visited {
-  color: #DDDDDD;
-}
-footer a:hover {
-  color: #DDDDDD;
+#social_icon a.fa-github:hover {
+  color: #FFFFFF;
 }
 
-footer a:active {
-  color: #DDDDDD;
+#copyright:before {
+  font-family:"FontAwesome";
+  content:"\f1f9";
+  margin-right:3px;
 }
 
-/* octcat色 */
-.fa-github
-{
-color: #DDDDDD;
-}
-.fa-github:hover
-{
-color: #FFFFFF;
+#copyright {
+  position: absolute:
+  bottom: 0;
+  color:#999999;
 }
 
 /*-----------------------------------------
