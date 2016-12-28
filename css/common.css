@@ -89,7 +89,7 @@ footer p {
 
 #copyright {
   position: absolute;
-  bottom: 0;
+  bottom:16px;
   color:#999999;
 }
 
