@@ -60,6 +60,18 @@ h2.residents:before{
   margin-right:10px;
 }
 
+h2.requirement:before{
+  font-family:"FontAwesome";
+  content:"\f041";
+  margin-right:10px;
+}
+
+h2.rent:before{
+  font-family:"FontAwesome";
+  content:"\f157";
+  margin-right:10px;
+}
+
 article {
   margin: 20px;
 }
