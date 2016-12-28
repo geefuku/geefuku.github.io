@@ -88,7 +88,7 @@ footer p {
 }
 
 #copyright {
-  position: absolute:
+  position: absolute;
   bottom: 0;
   color:#999999;
 }
@@ -101,4 +101,10 @@ wrap
 	margin:auto;
 }
 
+@media screen and (max-width: 960px) {
+	#wrap{
+		width:95%;
+		margin:auto;
+	}
+}
 
