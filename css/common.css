@@ -78,9 +78,17 @@ footer p {
   color: #DDDDDD;
 }
 
+#social_icon ul {
+  font-size: 0;
+}
+
+#social_icon li {
+  display: inline-block;
+  font-size: 18px;
+}
 #social_icon a {
   color: #999999;
-  margin: 0 16px 16px 16px;
+  margin: 8px;
 }
 
 #social_icon a.fa-github:hover {
@@ -94,8 +102,6 @@ footer p {
 }
 
 #copyright {
-  position: absolute;
-  bottom:16px;
   color:#999999;
 }
 
