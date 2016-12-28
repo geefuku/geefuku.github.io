@@ -48,6 +48,12 @@ h2 {
   margin:20px 0;
 }
 
+h2:before {
+  font-family:"FontAwesome";
+  content:"\f015";
+  margin-right:3px;
+}
+
 article {
   margin: 20px;
 }
