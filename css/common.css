@@ -78,7 +78,7 @@ article {
 
 footer {
   background: #535353;
-  position: fixed;
+ /* position: fixed;*/
   bottom: 0;
   width: 100%;
   padding:16px 0;
