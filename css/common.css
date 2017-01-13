@@ -132,3 +132,16 @@ wrap
 	}
 }
 
+/*-----------
+WEBフォント
+-----------*/
+
+@font-face {
+  font-family: "dokaben";
+  src: url("../font/dokaben_ver2_1.eot?") format('eot'),
+       url("../font/dokaben_ver2_1.woff2") format('woff2'),
+       url("../font/dokaben_ver2_1.woff") format('woff');
+}
+.dokaben_font {
+  font-family: "dokaben";
+}
